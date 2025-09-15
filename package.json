@@ -1,0 +1,39 @@
+{
+  "name": "vidagames.club",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3002",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/nuxt": "^1.0.10",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/seo": "^2.0.0-rc.21",
+    "@popperjs/core": "^2.11.8",
+    "@splidejs/splide": "^4.1.2",
+    "bootstrap": "^5.0.2",
+    "element-plus": "^2.8.3",
+    "swiper": "^11.1.14",
+    "ipx": "^3.0.1",
+    "jquery": "^3.3.1",
+    "nuxt": "^3.13.0",
+    "nuxt-gtag": "^3.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^2.0.0",
+    "@types/node": "^22.5.5",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5"
+  }
+}
